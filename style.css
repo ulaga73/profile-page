@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 10px 20px;
+}
+aside h1{
+    float: left;
+    color: white;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+nav{
+    float: right;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+nav button:hover{
+    background-color: rgb(61, 157, 253);
+}
+aside{
+    background-color: dodgerblue;
+    padding: 10px;
+    width: 15vw;
+    height: 83vh;
+}
+aside ul{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+aside ul li{
+    margin-top: 50%;
+    margin-left: 10px;
+    padding: 10px;
+}
+aside ul li:hover{
+    background-color: rgb(61, 157, 253);
+    cursor: pointer;
+    border-radius: 5px;
+}
+main{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+main h3, main h2{
+    text-decoration: underline;
+}
+h2{
+    color: lightseagreen;
+}
+.project{
+    position: relative;
+    left: 2rem;
+}
+.project h3{
+    color: tomato;
+}
+.project article{
+    margin-top: 10px;
+    line-height: 2rem;
+}
+.skills{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+.skills article{
+    margin-top: 10px;
+    line-height: 2rem;
+}
+.education{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+.education h3{
+    text-decoration: none;
+}
+.education li{
+    margin-top: 10px;
+    line-height: 2rem;
+}
+.education ul{
+    list-style-type: none;
+}
+.duration{
+    color: gray;
+    font-style: italic;
+}
+.grade{
+    color: gray;
+    font-style: italic;
+}
+footer{
+    background-color: lightgray;
+    height: 10vh;
+    padding: 3px 10px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid gray;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer span{
+    padding: 10px;
+    border: 1px solid white;
+}
+footer span:hover{
+    background-color: lightseagreen;
+}
+.about{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    width: 100%;
+    text-align: justify;
+}
+.about h2, .about h3{
+    text-decoration: none;
+}
+.about img{
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid lightseagreen;
+}
+.about h2{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.about ul{
+    list-style-type: none;
+}
+.details{
+    margin-top: 20px;
+}
+.list{
+    color: lightseagreen;
+    font-weight: 500;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- <h1>Profile Page</h1> -->
+            <nav>
+                <button type="button" id="about-btn">About Me</button>
+            </nav>
+        </header>
+        <aside>
+            <h1>Profile Page</h1>
+            <ul>
+                <li id="project-li">
+                    Projects
+                </li>
+                <li id="skill-li">
+                    Skills & Interests
+                </li>
+                <li id="education-li">
+                    Education
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <section class="project" id="project-sec">
+                <h2>Projects</h2>
+                <article>
+                    <h3>Contacts Manager App</h3>
+                    <ul>
+                        <li><span style="font-weight: 500;">Technologies used:</span> ReactJS, NodeJS, ExpressJS, MongoDB</li>
+                        <li><span style="font-weight: 500;">GitHub Link: </span><a href="https://github.com/ulaga73/contacts-manager" target="_blank">https://github.com/ulaga73/contacts-manager</a></li>
+                        <li>Developed the frontend with signup and login feature</li>
+                        <li>Implemented the import a CSV file and delete feature in a main page of the app</li>
+                        <li>Handled get, post and delete api requests in the backend</li>
+                        <li>Created user and contact models to handle the data in database</li>
+                        <li>Implemented JWT to authenticate the user and bcrypt to hash the password</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Insta Clone App</h3>
+                    <ul>
+                        <li><span style="font-weight: 500;">Technologies used:</span> ReactJS, NodeJS, ExpressJS, MongoDB</li>
+                        <li><span style="font-weight: 500;">GitHub Links: </span><a href="https://github.com/ulaga73/insta-clone-frontend" target="_blank">https://github.com/ulaga73/insta-clone-frontend</a>, <a href="https://github.com/ulaga73/insta-clone-backend" target="_blank">https://github.com/ulaga73/insta-clone-backend</a></li>
+                        <li>Developed the frontend with landing and post view page</li>
+                        <li>Handled get and post api requests in the backend</li>
+                        <li>Implemented form to get a post data</li>
+                        <li>Created post model to handle the data in database</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="skills" id="skill-sec">
+                <h2>Skills & Interests</h2>
+                <article>
+                    <ul>
+                        <li>Data Structure and Algorithms</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose ODM</li>
+                        <li>HTML, CSS</li>
+                        <li>Version Control (Git & GitHub)</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="education" id="education-sec">
+                <h2>Education</h2>
+                <article>
+                    <ul>
+                        <li>
+                            <h3>Full-Stack Developer Bootcamp</h3>
+                            <p>10x Academy (6-month full-time program focused on DS/Algos & Full-stack Tech)</p>
+                            <p class="duration">07/2022 - Present</p>
+                        </li>
+                        <li>
+                            <h3>Bachelor of Science (B.Sc) - Physics</h3>
+                            <p>Sri Ramakrishna College of Arts and Science, Coimbatore, TN | <span class="grade">CGPA: 7.8</span></p>
+                            <p class="duration">06/2017 - 04/2020</p>
+                        </li>
+                        <li>
+                            <h3>Higher Secondary - Class XII</h3>
+                            <p>Kadri Mills.Hr.Sec.School, Coimbatore, TN | <span class="grade">Percentage: 88%</span></p>
+                            <p class="duration">06/2016 - 04/2017</p>
+                        </li>
+                        <li>
+                            <h3>SSLC - Class X</h3>
+                            <p>Govt.Hr.Sec.School, Coimbatore, TN | <span class="grade">Percentage: 95%</span></p>
+                            <p class="duration">06/2014 - 04/2015</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section class="about" id="about-sec">
+                <article>
+                    <h2>About Me</h2>
+                    <img src="./ulaganathan.jpg" alt="Profile">
+                </article>
+                <article>
+                    <h3 style="color: lightseagreen;">Ulaganathan S</h3>
+                    <h3 style="text-decoration: underline; color: tomato;">Full Stack Developer</h3>
+                    <p>A motivated individual who is good at problem solving and programming, with an emphasis on writing clean and maintainable code. Experienced with data structures/algorithms and designing optimal solutions, aspiring to make a career in software engineering with a focus on full stack development.</p>
+                </article>
+                <article class="details">
+                    <ul>
+                        <li><span class="list">Birthday: </span>1<sup>st</sup> March, 2000</li>
+                        <li><span class="list">Age: </span>23 Yr</li>
+                        <li><span class="list">Residence: </span>India</li>
+                        <li><span class="list">Address: </span>Coimbatore, TN</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <span><a href="mailto:ulaganathan@10xacademy.co.in">ulaganathan@10xacademy.co.in</a></span>
+            <span><a href="tel:+91 7373888091">+91 7373888091</a></span>
+            <span><a href="https://linkedin.com/in/ulaganathan-s-mar73" target="_blank">LinkedIn</a></span>
+            <span><a href="https://github.com/ulaga73" target="_blank">GitHub</a></span>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
